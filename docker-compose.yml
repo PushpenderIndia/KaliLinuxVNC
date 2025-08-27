@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  kali:
+    build: .
+    container_name: kali
+    ports:
+      - "9020:8080"  # noVNC web interface
+      - "9021:5900"  # VNC direct connection
+    restart: unless-stopped
+    environment:
+      - VNCEXPOSE=0
+      - VNCPORT=5900
+      - VNCPWD=changeme
+      - VNCDISPLAY=2560x1440
+      - VNCDEPTH=16
+      - NOVNCPORT=8080
