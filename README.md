@@ -11,7 +11,7 @@ A lightweight Docker container running Kali Linux with a complete desktop enviro
 - **VNC Support**: Traditional VNC client compatibility
 - **SSL/TLS Security**: Self-signed certificates for encrypted connections
 - **Configurable**: Customizable metapackages, desktop environments, and display settings
-- **Lightweight**: Optimized for minimal resource usage
+- **Lightweight**: Optimized for minimal resource usage.
 
 ## Quick Start
 
